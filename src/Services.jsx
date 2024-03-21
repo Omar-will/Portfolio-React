@@ -1,8 +1,47 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Services.scss';
 
 const ProjectSection = () => {
+    useEffect(() => {
+        const modalViews = document.querySelectorAll(".services__modal");
+        const modalBtns = document.querySelectorAll(".services__button");
+        const modalClose = document.querySelectorAll(".services__modal-close");
     
+        let modal = function (modalClick) {
+          modalViews[modalClick].classList.add("active-modal");
+        };
+    
+        modalBtns.forEach((mb, i) => {
+          mb.addEventListener("click", () => {
+            modal(i);
+          });
+        });
+    
+        modalClose.forEach((mc) => {
+          mc.addEventListener("click", () => {
+            modalViews.forEach((mv) => {
+              mv.classList.remove("active-modal");
+            });
+          });
+        });
+    
+        // Nettoyer les écouteurs d'événements lors du démontage du composant
+        return () => {
+          modalBtns.forEach((mb, i) => {
+            mb.removeEventListener("click", () => {
+              modal(i);
+            });
+          });
+    
+          modalClose.forEach((mc) => {
+            mc.removeEventListener("click", () => {
+              modalViews.forEach((mv) => {
+                mv.classList.remove("active-modal");
+              });
+            });
+          });
+        };
+      }, []);
   return (
     <section className="services section" id="project">
       <h2 className="section__title">Conception de site web</h2>

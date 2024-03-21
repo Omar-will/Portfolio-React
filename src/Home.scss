@@ -1,3 +1,5 @@
+@import 'main';
+
 .home__container {
     position: relative;
     row-gap: 4.5rem;
@@ -8,25 +10,25 @@
   
       .home__greeting,
       .home__education {
-        font-size: var(--small-font-size);
-        font-weight: var(--font-medium);
+        font-size: var($small-font-size);
+        font-weight: var($font-medium);
       }
   
       .home__greeting {
         display: block;
-        color: var(--title-color);
+        color: var($title-color);
         margin-bottom: 0.25rem;
       }
   
       .home__education {
-        color: var(--text-color);
+        color: var($text-color);
         margin-bottom: 2.5rem;
       }
     }
   
     .home__name {
-      font-size: var(--biggest-font-size);
-      color: var(--first-color);
+      font-size: var($biggest-font-size);
+      color: var($first-color);
     }
   
     .home__img {
@@ -37,8 +39,8 @@
       justify-self: center;
       background: linear-gradient(
         180deg,
-        hsla(var(--first-hue), var(--sat), var(--lig), 0.5),
-        hsla(var(--first-hue), var(--sat), var(--lig), 0.1)
+        hsla(var($first-hue), var($sat), var($lig), 0.5),
+        hsla(var($first-hue), var($sat), var($lig), 0.1)
       );
       border-radius: 10rem 10rem 1rem 1rem;
       display: flex;
@@ -67,8 +69,8 @@
   
       .home__social-link {
         width: max-content;
-        background-color: var(--container-color);
-        color: var(--first-color);
+        background-color: var($container-color);
+        color: var($first-color);
         padding: 0.25rem;
         border-radius: 0.5rem;
         display: flex;
@@ -76,7 +78,7 @@
         transition: 0.4s;
   
         &:hover {
-          background-color: var(--first-color);
+          background-color: var($first-color);
           color: #ffffff;
         }
       }
@@ -85,13 +87,13 @@
         content: "";
         width: 32px;
         height: 1px;
-        background-color: var(--first-color);
+        background-color: var($first-color);
         transform: rotate(90deg) translate(16px, 4px);
       }
     }
   
     .home__scroll {
-      color: var(--first-color);
+      color: var($first-color);
       right: -1.5rem;
       bottom: 4rem;
       display: grid;
@@ -103,7 +105,7 @@
       }
   
       .home__scroll-name {
-        font-size: var(--smaller-font-size);
+        font-size: var($biggest-font-size);
         transform: rotate(-90deg);
       }
     }

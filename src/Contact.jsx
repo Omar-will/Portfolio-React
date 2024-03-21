@@ -4,7 +4,7 @@ import './Contact.scss';
 
 function ContactSection() {
   const sendMail = () => {
-    emailjs.init("8DPURZQ6Wq5Ge97Ek"); // Initialisez la bibliothèque emailjs-com
+    emailjs.init("8DPURZQ6Wq5Ge97Ek"); 
 
     var params = {
       sendername: document.querySelector("#sendername").value,
