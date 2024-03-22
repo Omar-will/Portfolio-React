@@ -67,7 +67,7 @@ const App = () => {
       distance: "30px",
     });
     
-    sr.reveal(`.work__card`, {
+    sr.reveal(`.skill-card, .work__card`, {
       delay: 100,
       scale: 0.9,
       origin: "bottom",
