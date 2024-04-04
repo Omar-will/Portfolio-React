@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.scss';
+import SmokeEffect from "./Smoke";
 
 
 function Header() {
@@ -50,7 +51,7 @@ function Header() {
 
             {/* <!--=============== theme change button ===============--> */}
             <i className='bx bx-moon change-theme change-theme-button' id="theme-button"></i>
-
+<SmokeEffect />
         </nav>
     </header>
   );

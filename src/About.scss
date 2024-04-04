@@ -2,12 +2,13 @@
 
 .about__container {
     row-gap: 2.5rem;
-  
+    background-image: linear-gradient(135deg, #FAD961, #F76B1C, #C33C85, #6E0D9B); 
     .about__img {
       width: 320px;
       border-radius: 1.5rem;
       justify-self: center;
     }
+
   
     .about__data {
       text-align: center;

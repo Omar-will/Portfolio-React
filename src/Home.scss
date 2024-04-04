@@ -37,16 +37,12 @@
   
     .home__handle {
       justify-self: center;
-      background: linear-gradient(
-        180deg,
-        hsla(var($first-hue), var($sat), var($lig), 0.5),
-        hsla(var($first-hue), var($sat), var($lig), 0.1)
-      );
-      border-radius: 10rem 10rem 1rem 1rem;
+      border-radius: 5rem 5rem 1rem 1rem;
       display: flex;
       align-items: flex-end;
       justify-content: center;
       overflow: hidden;
+      
     }
   
     .home__button {

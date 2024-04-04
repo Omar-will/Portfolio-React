@@ -1,16 +1,16 @@
-// About.jsx
-
 import React from 'react';
 import './About.scss';
+import RainDrop from "./components/RainDrop";
+
 
 const About = () => {
   return (
     <section className="about section" id="about">
       <h2 className="section__title">Qui Suis-Je ?</h2>
-
+      <RainDrop />
       <div className="about__container container grid">
         <img src="assets/img/about-min.webp" alt="ordinateur" className="about__img" width="200" height="200" loading="lazy" />
-
+        {/* <img src="assets/img/palm.png" alt="palm" className="about__img" width="200" height="200" loading="lazy" /> */}
         <div className="about__data">
           <div className="about__info">
             <div className="about__box">

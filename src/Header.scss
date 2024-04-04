@@ -5,10 +5,11 @@
   top: 0;
   left: 0;
   width: 100%;
+  background-image: url('C:/Users/omarb/Desktop/mon-projet/public/assets/img/sun.png');
+    background-size: cover; 
+    background-position: center;
   // height: var(--header-height);
-  background-color: var($body-color);
-  z-index: var($z-fixed);
-  transition: 0.4s;
+  
   
   h1 {
     margin-left: 1rem;

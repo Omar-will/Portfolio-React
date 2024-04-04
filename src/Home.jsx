@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.scss';
+import ConfettiButton from './components/ConfettiButton';
 
 
 function Home() {
@@ -11,17 +12,20 @@ function Home() {
           <h2>Omar Bengoudifa</h2>
           <h3 className="home__education">Développeur Frontend</h3>
 
-          <div className="home__button">
-            <a download="" href="assets/pdf/mon%20cv.pdf" className="button button--ghost">↩
+      
+            <div className="button-wrapper">
+            <a download="" href="assets/pdf/mon%20cv.pdf" className="confetti-button">↩
               Télecharger CV
             </a>
 
+          <div className="home__button">
             <a href="#about" className="button">À propos</a>
+          </div>
           </div>
         </div>
 
         <div className="home__handle">
-        <img src="assets/img/perfil-min.webp" alt="Ordinateur" className="home__img" width="200" height="200" loading="lazy" />
+        <img src="assets/img/moi.jpg" alt="Ordinateur" className="home__img" width="200" height="200" loading="lazy" />
         </div>
 
         <div className="home__social">
@@ -38,6 +42,8 @@ function Home() {
           <span className="home__scroll-name">scroller</span>
         </a>
       </div>
+    
+      <ConfettiButton />
     </section>
   );
 }
