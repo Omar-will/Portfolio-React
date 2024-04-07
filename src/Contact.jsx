@@ -1,6 +1,7 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
 import './Contact.scss';
+import RainyImage from './components/RainyDay'
 
 function ContactSection() {
   const sendMail = () => {
@@ -36,6 +37,7 @@ function ContactSection() {
   return (
       <section className="contact section" id="contact">
         {/* <span className="section__subtitle">Get in touch</span> */}
+        
         <h3 className="section__title">Comment me contacter ? </h3>
 
         <div className="contact__container container grid">
@@ -104,9 +106,9 @@ function ContactSection() {
             </div>                    
 
             <button className="button" onClick={sendMail}>Envoyer votre message</button>
-
           </div>
         </div>
+        <RainyImage />
       </section>
   );
 }

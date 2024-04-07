@@ -1,24 +1,48 @@
-import { useEffect } from 'react';
-import RainyDay from 'public/js/rainyday.js';
+import React, { useEffect } from 'react';
+ 
 
-function RainEffect() {
+function RainyImage() {
     useEffect(() => {
-        // Créer un conteneur pour simuler l'espace de pluie
-        const rainContainer = document.createElement('div');
-        rainContainer.id = 'rain-container';
-        rainContainer.style.position = 'fixed';
-        rainContainer.style.top = 0;
-        rainContainer.style.left = 0;
-        rainContainer.style.width = '100%';
-        rainContainer.style.height = '100%';
-        document.body.appendChild(rainContainer);
+        const loadImage = () => {
+            var container = document.getElementById('image-container');
+            if (!container) {
+                console.error('L\'élément conteneur avec l\'ID "image-container" n\'a pas été trouvé dans le DOM.');
+                return;
+            }
+        
+            var image = new Image();
+            image.onload = function () {
+                var engine = new window.RainyDay({
+                    image: this,
+                    parentElement: container // Spécifiez le conteneur pour l'effet pluie
+                });
+                engine.rain([
+                    [3, 5, 6]
+                ], 100);
+                
+            };
+            // Chargement de l'image
+            image.crossOrigin = 'anonymous';
+            image.src = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAADCAYAAABfwxXFAAAAYklEQVQYVwFXAKj/AXRCrf8E9PIAAxXhAPfv+gDp7+8A5PLsAA0PBgAB0cjr/6l4yQAGE+YAAfnxABkHCwAM/gMA8On2AAFpQbb/7u/wAPcB3ADm/9kAB//6ABoCFAAfDxwACv8maribSVsAAAAASUVORK5CYII=';
+        
+            // Ajoutez l'image au conteneur
+            container.appendChild(image);
+        };
 
-        // Appliquer l'effet de pluie
-        const rainyDay = new RainyDay(rainContainer, 10, 10, 0.9);
-        rainyDay.rain([ [0, 2, 200] ], 100); // Modifier les paramètres de la pluie selon vos préférences
-    }, []); // Effect will run only after the initial render
+        // Vérifier si RainyDay est disponible dans la référence globale
+        if (typeof window.RainyDay !== 'undefined') {
+            loadImage();
+        } else {
+            console.error('RainyDay.js n\'est pas disponible.');
+        }
+    }, []);
 
-    return null; // Nous n'avons pas besoin de retourner de contenu JSX puisque nous manipulons directement le DOM
+    return (
+        <div id="image-container" className="rainy-image-container">
+
+    </div>
+    );
 }
 
-export default RainEffect;
+export default RainyImage;
+

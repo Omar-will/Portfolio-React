@@ -389,7 +389,7 @@ h1 {
   z-index: -2; 
 } 
 
-#canvas {
+/* #canvas {
   position: absolute;
   top: 0;
   left: 0;
@@ -397,7 +397,7 @@ h1 {
   height: 100%;
   background-color: #000000;
   z-index: -1; 
-}
+} */
 
 .button-wrapper canvas {
   position: absolute;
@@ -582,6 +582,7 @@ a.confetti-button:hover {
   border-radius: 1.5rem;
   justify-self: center;
   margin-left: 10px;
+  z-index: 1;
 }
 
 .about__data {
@@ -705,7 +706,7 @@ a.confetti-button:hover {
 }
 
 .skill-card:hover{
-  background-color: hsl(219, 48%, 8%)
+  background-color: transparent;
 }
 
 .skill-card:nth-child(1):hover .skill-name{
@@ -861,6 +862,31 @@ a.confetti-button:hover {
   color: linear-gradient(135deg, #8a2be2, #4b0082);
   margin-bottom: 1rem;
 }
+
+
+.rainy-image-container {
+  top: 50rem;
+  position: absolute;
+  height: 35rem;
+  width: 100%;
+  z-index: -2;
+  overflow: hidden;
+}
+
+/* #canvas {
+  height: 100rem;
+  width: 100rem;
+  z-index: -2;
+} */
+
+img {
+  
+  
+  height: 20rem;
+  width: 100%;
+  z-index: -2;
+}
+
 
 .services__modal-description {
   font-size: var(--small-font-size);

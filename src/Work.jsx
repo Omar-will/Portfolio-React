@@ -1,9 +1,11 @@
 import React from 'react';
 import './Work.scss';
 
+
 function WorkSection() {
   return (
     <section className="work section" id="work">
+      
       <h2 className="section__title">Ce que je propose</h2>
       <div className="work__container container grid">
         <div className="work__card mix web">
@@ -63,6 +65,7 @@ function WorkSection() {
             </p>
           </div>
         </div>
+
       </div>
     </section>
   );

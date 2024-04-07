@@ -1,6 +1,6 @@
 import React from 'react';
 import './Skills.scss';
-import MyCanvasAnimation from './components/Lightning'
+// import MyCanvasAnimation from './components/Lightning'
 
 
 const Skills = () => {
@@ -62,7 +62,7 @@ const Skills = () => {
                   <p className="skill-name">SEO</p>
               </div>
           </div>
-              <MyCanvasAnimation />
+              {/* <MyCanvasAnimation /> */}
       </div>
   );
 }
