@@ -338,12 +338,14 @@ h1 {
 .home__education {
   font-size: var(--small-font-size);
   font-weight: var(--font-medium);
+  
 }
 
 .home__greeting {
   display: block;
   color: var(--title-color);
   margin-bottom: 0.25rem;
+  
 }
 
 .home__education {
@@ -418,12 +420,13 @@ a.confetti-button {
     border-radius: 0.8rem; 
     transition: 0.4s;
     font-weight: var(500);
-    
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
 }
 a.confetti-button:hover {
   background-color: rgb(129, 16, 112);
   border: 2px solid#08f66c;
   color: white;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 5.1);
 }
 
 
@@ -450,7 +453,7 @@ a.confetti-button:hover {
 .home__social-link {
   width: max-content;
   background-color: var(--container-color);
-  color: #08f66c;
+  color: white;
   padding: 0.25rem;
   border-radius: 0.5rem;
   display: flex;
@@ -542,12 +545,14 @@ a.confetti-button:hover {
   font-weight: var(--font-medium);
   transition: 0.4s;
   margin-bottom: 10px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
 }
 
 .button:hover {
   color: white;
   background-color: rgb(129, 16, 112);
   border: 2px solid#08f66c;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 2.0);
 }
 
 .button--ghost {
@@ -583,6 +588,7 @@ a.confetti-button:hover {
   justify-self: center;
   margin-left: 10px;
   z-index: 1;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 2.3);
 }
 
 .about__data {
@@ -602,6 +608,7 @@ a.confetti-button:hover {
   padding: 0.75rem 0.5rem;
   margin-top: 10px;
   margin-right: 10px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 2.1);
 }
 
 .about__icon {
@@ -746,15 +753,15 @@ a.confetti-button:hover {
 }
 
 .skill-card:nth-child(10):hover .skill-name{
-  background: #000000;
+  background: linear-gradient(45deg,#b94ce4, #4f29cd);
 }
 
 .skill-card:nth-child(11):hover .skill-name{
-  background: #000000;
+  background: linear-gradient(45deg,#b94ce4, #4f29cd);
 }
 
 .skill-card:nth-child(12):hover .skill-name{
-  background: #000000;
+  background: linear-gradient(45deg,#b94ce4, #4f29cd);
 }
 
 .skill-card:nth-child(13):hover .skill-name{
@@ -796,9 +803,10 @@ a.confetti-button:hover {
 }
 
 .services__card {
-  background-color: var(--container-color);
+  background: linear-gradient(135deg, #FAD961, #F76B1C, #C33C85, #6E0D9B); 
   padding: 1rem 1.5rem 1em;
   border-radius: 1.25rem;
+ /* transform-style: preserve-3d; */
 }
 
 @media screen and (max-width: 320px) {
@@ -810,16 +818,17 @@ a.confetti-button:hover {
 .services__title {
   font-size: var(--h3-font-size);
   margin-bottom: 2.5rem;
-  color: #000000;
+  color: rgb(94, 2, 94);
 }
 
 .services__button {
-  color: var(--first-color);
+  color: rgb(66, 11, 66);
   font-size: var(--small-font-size);
   display: flex;
   align-items: center;
   column-gap: 0.25rem;
   cursor: pointer;
+  
 }
 
 .services__button:hover .services__icon {
@@ -880,8 +889,7 @@ a.confetti-button:hover {
 } */
 
 img {
-  
-  
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 3.3);
   height: 20rem;
   width: 100%;
   z-index: -2;
@@ -911,6 +919,7 @@ img {
 
 .services__modal-info {
   font-size: var(--small-font-size);
+  color: #151c28;
 }
 
 .services__modal-close {
@@ -955,7 +964,7 @@ img {
 }
 
 .work__card {
-  background-color: var(--container-color);
+  background: linear-gradient(135deg, #E63067, #FFF8E7);
   padding: 1rem;
   border-radius: 1rem;
   width: 15rem;
@@ -979,7 +988,7 @@ img {
 
 .work__button {
   width: max-content;
-  color: var(--first-color);
+  color: rgb(66, 11, 66);
   font-size: var(--small-font-size);
   display: flex;
   align-items: center;
@@ -1074,6 +1083,7 @@ img {
   padding: 2rem 1rem;
   border-radius: 0.75rem;
   text-align: center;
+  background: linear-gradient(45deg,#b94ce4, #4f29cd);
 }
 
 .contact__card-icon {
@@ -1156,7 +1166,9 @@ img {
 }
 /*=============== FOOTER ===============*/
 .footer {
-  background-color: var(--first-color);
+  /* background-image: linear-gradient(135deg, #FAD961, #F76B1C, #C33C85, #6E0D9B); 
+   */
+   background: transparent;
 }
 
 .footer__container {
@@ -1190,11 +1202,12 @@ img {
 
 .footer__social-link {
   background-color: var(--body-color);
-  color: var(--first-color);
+  color: #F76B1C ;
   padding: 0.35rem;
   border-radius: 0.25rem;
   font-size: 1rem;
   display: inline-flex;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 2.1);
 }
 
 .footer__copy {
@@ -1204,6 +1217,46 @@ img {
   text-align: center;
   font-size: var(--smaller-font-size);
   margin-bottom: 2rem;
+}
+#up{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-image: linear-gradient(80deg, #f9f8f5, #F76B1C);
+  filter: blur(80px);
+  animation: down 40s infinite;
+}
+
+#down{
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-image: linear-gradient(80deg, rgba(255, 218, 96, 0.8), rgba(199, 10, 114));
+  filter: blur(80px);
+  animation: up 30s infinite;
+}
+
+#left{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-image: linear-gradient(80deg, #C33C85, #6E0D9B);
+  filter: blur(80px);
+  animation: left 30s 1s infinite;
+}
+
+#right{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-image: linear-gradient(80deg, rgba(248, 125, 18, 0.6), rgba(199, 10, 114, 0.5));
+  filter: blur(80px);
+  animation: right 4s .5s infinite;
 }
 
 /*=============== SCROLL BAR ===============*/

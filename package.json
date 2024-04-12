@@ -19,6 +19,7 @@
     "sass": "^1.72.0",
     "scrollreveal": "^4.0.9",
     "three": "^0.162.0",
+    "tilt.js": "^1.2.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -46,6 +47,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "resolve-url-loader": "^5.0.0",
     "sass-loader": "^14.1.1"
   }

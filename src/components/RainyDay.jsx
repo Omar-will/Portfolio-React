@@ -17,7 +17,7 @@ function RainyImage() {
                     parentElement: container // Spécifiez le conteneur pour l'effet pluie
                 });
                 engine.rain([
-                    [3, 5, 6]
+                    [3, 2, 2]
                 ], 100);
                 
             };

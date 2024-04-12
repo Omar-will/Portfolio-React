@@ -95,7 +95,7 @@ const App = () => {
       distance: "30px",
     });
     
-    sr.reveal(`.footer, .footer__container`, {
+    sr.reveal(`.footer, .footer__container , #up, #down, #left, #right`,  {
       delay: 100,
       scale: 0.9,
       origin: "bottom",
