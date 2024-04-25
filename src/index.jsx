@@ -1,14 +1,14 @@
 import React, { useEffect } from 'react';
 import ScrollReveal from 'scrollreveal';
-import './main.scss';
-import Header from './Header';
-import Home from './Home';
-import About from './About';
-import Skills from './Skills';
-import Services from './Services';
-import Work from './Work';
-import Contact from './Contact';
-import Footer from './Footer';
+import './Scss/main.scss';
+import Header from './Sections/Header';
+import Home from './Sections/Home';
+import About from './Sections/About';
+import Skills from './Sections/Skills';
+import Services from './Sections/Services';
+import Work from './Sections/Work';
+import Contact from './Sections/Contact';
+import Footer from './Sections/Footer';
 import reportWebVitals from './reportWebVitals';
 import { createRoot } from 'react-dom/client'; 
 
@@ -59,8 +59,9 @@ const App = () => {
       origin: "bottom",
       distance: "30px",
     });
+
     
-    sr.reveal(`.services__title, .services__button, .work__button, .work__img` ,  {
+    sr.reveal(` .services__title, .services__button, .work__button, .work__img` ,  {
       delay: 100,
       scale: 0.9,
       origin: "top",

@@ -1,0 +1,343 @@
+{
+    "greeting": "Bonjour, Je suis",
+    "name": "Omar Bengoudifa",
+    "title": "Développeur Frontend",
+    "cvLink": "assets/pdf/mon%20cv.pdf",
+    "socialLinks": [
+      {
+        "name": "LinkedIn",
+        "iconClass": "bx bxl-linkedin",
+        "url": "https://www.linkedin.com/in/omar-bengoudifa-59a147151/"
+      },
+      {
+        "name": "GitHub",
+        "iconClass": "bx bxl-github",
+        "url": "https://github.com/Omar-will"
+      }
+    ],
+  
+  "about": {
+    "title": "Qui Suis-Je ?",
+    "image": "assets/img/about-min.webp",
+    "experience": {
+      "title": "Experience",
+      "years": "Bac+2 / 2 ans d'expérience"
+    },
+    "completedProjects": {
+      "title": "Complété",
+      "count": "10+ Projets"
+    },
+    "support": {
+      "title": "Support",
+      "availability": "Disponibilité 24/7"
+    },
+    "description": "Passionné depuis toujours par un large éventail de domaines, l'informatique occupe une place centrale dans ma vie. Le développement web est une passion. Mon parcours d'apprentissage a déjà englobé des technologies telles que HTML, CSS, JavaScript et React, et j'ai hâte de creuser davantage mes compétences et d'explorer de nouveaux horizons. Je suis toujours avide de connaissances et de découvertes.",
+    "contactLink": "#contact"
+  },
+  "skills": [
+    {
+      "name": "HTML",
+      "image": "assets/img/html.png"
+    },
+    {
+      "name": "CSS",
+      "image": "assets/img/css.png"
+    },
+    {
+      "name": "JavaScript",
+      "image": "assets/img/javascript.png"
+    },
+    {
+      "name": "React JS",
+      "image": "assets/img/reactjs.png"
+    },
+    {
+      "name": "Redux",
+      "image": "assets/img/Redux.png"
+    },
+    {
+      "name": "Node JS",
+      "image": "assets/img/nodejs.png"
+    },
+    {
+      "name": "Mongo DB",
+      "image": "assets/img/mongo.png"
+    },
+    {
+      "name": "Tailwind",
+      "image": "assets/img/tailwind.png"
+    },
+    {
+      "name": "Sass",
+      "image": "assets/img/Sass.png"
+    },
+    {
+      "name": "Sql",
+      "image": "assets/img/Sql.png"
+    },
+    {
+      "name": "Git",
+      "image": "assets/img/Git.png"
+    },
+    {
+      "name": "Php",
+      "image": "assets/img/Php.png"
+    },
+    {
+      "name": "SEO",
+      "image": "assets/img/Seo.png"
+    }
+  ],
+  
+  "projects": [
+    {
+      "title": "Booki",
+      "image": "assets/img/work2.webp",
+      "demoLink": "https://omar-will.github.io/Booki-P3/",
+      "codeLink": "https://github.com/Omar-will/Booki-P3",
+      "description": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
+      "longDescription": "L'objectif de l'entreprise est de créer un site Internet qui permettra aux utilisateurs de rechercher et de réserver des hébergements et des activités dans la ville de leur choix. Ce projet vise à offrir une plateforme conviviale aux usagers, facilitant ainsi la découverte et la planification de voyages et d'expériences dans diverses destinations.",
+      "details": [
+        "Une page index html.",
+        "Un dossier pour les assets (images).",
+        "Un dossier “css” contenant un fichier “style.css”"
+      ]
+    },
+    {
+      "title": "Oh my food",
+      "image": "assets/img/work1.webp",
+      "demoLink": "https://omar-will.github.io/Ohmyfood/",
+      "codeLink": "https://github.com/Omar-will/Ohmyfood",
+      "description": "Améliorez l'interface d'un site mobile avec des animations CSS",
+      "longDescription": "Objectif: Développer une plateforme en priorisant l'expérience mobile, permettant aux utilisateurs de découvrir et réserver des menus dans des restaurants gastronomiques tout en leur offrant la possibilité de composer leur repas à l'avance.",
+      "details": [
+        "Une page index html.",
+        "Un dossier pour les assets (fichier CSS, images).",
+        "Un dossier pour le SASS.",
+        "Un dossier 'restaurants' pour y mettre les pages de restaurants."
+      ]
+    },
+    {
+      "title": "Portfolio architecte",
+      "image": "assets/img/work3.webp",
+      "codeLink": "https://github.com/Omar-will/Portfolio-architecte-sophie-bluel-",
+      "description": "Créez une page web dynamique avec JavaScript",
+      "longDescription": "Assigné en tant que développeur front-end sur la conception du site portfolio d'une architecte d'intérieur. mon rôle était de collaborer avec l'équipe existante pour créer un site web qui mettait en valeur les créations et les compétences de l'architecte d'intérieur. Ce site portfolio sera conçu pour présenter de manière élégante et visuellement attrayante les projets de design d'intérieur de l'architecte.",
+      "details": [
+        "Gérer les appels à l’API et récupérer les données via Swagger",
+        "2 pages index html.",
+        "2 fichiers JavaScript",
+        "Un dossier pour les assets (fichier CSS, images).",
+        "Installation de Node.js."
+        ]
+      },
+      {
+        "title": "Kasa",
+        "image": "assets/img/work4.webp",
+        "codeLink": "https://github.com/Omar-will/Kasa",
+        "description": "Créez une application web de location immobilière avec React",
+        "longDescription": "Kasa, un acteur majeur dans le secteur de la location d'appartements entre particuliers en France, possède une expérience de près de 10 ans dans ce domaine. Avec une impressionnante moyenne de plus de 500 nouvelles annonces mises en ligne quotidiennement",
+        "details": [
+          "Application React.",
+          "React Router.",
+          "Create React App (CRA).",
+          "Un dossier pour le SASS."
+        ]
+      },
+      {
+        "title": "Nina Carducci",
+        "image": "assets/img/work7.webp",
+        "codeLink": "https://github.com/Omar-will/Ninacarducci",
+        "description": "Optimisez le référencement d'un site de photographe",
+        "longDescription": "le site de Nina Carducci, une photographe professionnelle. Mon objectif était d'améliorer la performance de son site en mettant en œuvre les actions, Optimisation des images, Optimisation du code et de la structure.",
+        "details": [
+          "Faire une optimisation globale du site tant sur les performances que sur le SEO.",
+          "Mettre en place le référencement local en utilisant Schema.org.",
+          "Ajouter les metas pour les réseaux sociaux.",
+          "Faire les modifications liées à l’accessibilité du site.",
+          "Produire un rapport d’optimisation présentant toutes vos actions et leur impact."
+        ]
+      },
+      {
+        "title": "724 Events",
+        "image": "assets/img/work6.webp",
+        "codeLink": "https://github.com/Omar-will/724-Events",
+        "description": "Débuggez le site d'une agence d'événementiel",
+        "longDescription": "L'agence 724events prévoit de lancer la nouvelle version de son site vitrine événementiel, qui est conçu comme une page unique (one-page). Ma mission consistai à résoudre les problèmes et les bugs restants sur le site afin de le rendre pleinement opérationnel.",
+        "details": [
+          "installation Node.js",
+          "Installation et configuration de React Dev Tools",
+          "React.js",
+          "Tests unitaires",
+          "Tenir à jour un cahier de recette"
+        ]
+      },
+      {
+        "title": "Argent Bank",
+        "image": "assets/img/work5.webp",
+        "codeLink": "https://github.com/Omar-will/Argentbank-",
+        "description": "Implémentez le front-end d'une application bancaire avec React",
+        "longDescription": "Argent Bank, une nouvelle banque en ligne, Utiliser Redux pour gérer le state de l'ensemble de l'application. Ce que doit faire l’application : L'utilisateur peut visiter la page d'accueil. L'utilisateur peut se connecter au système et se déconnecter. L'utilisateur peut voir les informations de son propre profil qu'après s'être connecté. L’utilisateur peut modifier son pseudo.",
+        "details": [
+          "installation Node.js",
+          "Installation de Mongodb",
+          "React.js",
+          "Create React App (CRA).",
+          "Redux",
+          "Fichier Sass."
+        ]
+      },
+      {
+        "title": "Arcade Game",
+        "image": "assets/img/Shoot.jpg",
+        "description": "Jeu arcade de tir",
+        "details": [
+          "Jeu arcade de tir"
+        ]
+      },
+      {
+        "title": "Sites de démonstration",
+        "image": "assets/img/perfil-min.webp",
+        "description": "Démo",
+        "details": [
+          "Démo"
+        ]
+      }
+    ],
+  
+  "navItems": [
+    {
+      "label": "Aller à l'accueil",
+      "link": "#home",
+      "icon": "bx-home"
+    },
+    {
+      "label": "Aller à about",
+      "link": "#about",
+      "icon": "bx-user"
+    },
+    {
+      "label": "Aller au skills",
+      "link": "#skills",
+      "icon": "bx-book"
+    },
+    {
+      "label": "Aller au projet",
+      "link": "#project",
+      "icon": "bx-wrench"
+    },
+    {
+      "label": "Aller à work",
+      "link": "#work",
+      "icon": "bx-briefcase-alt-2"
+    },
+    {
+      "label": "Aller au contact",
+      "link": "#contact",
+      "icon": "bx-message-square-dots"
+    }
+  ],
+  "work":[{
+  "offer": {
+    "title": "Mon offre",
+    "description": "J'excelle dans la conception et le développement de sites web en alliant un sens aigu de la créativité à une approche pragmatique. Mon objectif est de créer des expériences en ligne qui transcendent les attentes, tout en étant solidement ancrées dans les besoins spécifiques de mes clients. Mon engagement à rester à l'affût des dernières tendances et évolutions du marché me permet de proposer des solutions novatrices."
+  },
+  "webExperiences": {
+    "title": "Expériences Web",
+    "items": [
+      "Je développe des interfaces utilisateurs.",
+      "Développement de pages Web.",
+      "Je crée les interactions des éléments UX.",
+      "Je positionne le nom de votre entreprise.",
+      "Utilisation avancée de Redux pour gérer l'état de l'application.",
+      "Capable de créer des tests unitaires pour garantir la qualité du code et des fonctionnalités."
+    ]
+  },
+  "studies": {
+    "title": "Études",
+    "description": "Pendant ma formation chez OpenClassroom, j'ai acquis une expertise complète dans le domaine du développement web, en me concentrant sur les technologies HTML, CSS, React.js, et Redux pour créer des sites web de haute qualité. J'ai également acquis des compétences essentielles en optimisation de sites web, tests unitaires, débogage, gestion des routes à l'aide de Swagger, et bien d'autres aspects qui me permettent de créer des solutions web efficaces et robustes."
+  }
+}
+],
+"contact": {
+  "title": "Comment me contacter ?",
+  "info": [
+    {
+      "title": "Joignabilité",
+      "methods": [
+        {
+          "name": "Email",
+          "icon": "M16.1 260.2c-22.6 12.9-20.5 47.3 3.6 57.3L160 376V479.3c0 18.1 14.6 32.7 32.7 32.7c9.7 0 18.9-4.3 25.1-11.8l62-74.3 123.9 51.6c18.9 7.9 40.8-4.5 43.9-24.7l64-416c1.9-12.1-3.4-24.3-13.5-31.2s-23.3-7.5-34-1.4l-448 256zm52.1 25.5L409.7 90.6 190.1 336l1.2 1L68.2 285.7zM403.3 425.4L236.7 355.9 450.8 116.6 403.3 425.4z",
+          "link": "mailto:omar.bengoudifa@outlook.fr"
+        },
+        {
+          "name": "Whatsapp",
+          "icon": "M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z",
+          "data": "0602040932",
+          "link": "https://api.whatsapp.com/send?phone=+33602040932&text=Hey%20there!"
+        },
+        {
+          "name": "Twitter",
+          "icon": "M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z",
+          "data": "OmarBengoudifa",
+          "link": "https://twitter.com/OmarBengoudifa"
+        }
+      ]
+    }
+  ],
+  "formTitle": "Poser votre question"
+},
+
+  "links": [
+    {
+      "label": "Home",
+      "href": "#home"
+    },
+    {
+      "label": "About",
+      "href": "#about"
+    },
+    {
+      "label": "Skills",
+      "href": "#skills"
+    },
+    {
+      "label": "Project",
+      "href": "#project"
+    },
+    {
+      "label": "Work",
+      "href": "#work"
+    },
+    {
+      "label": "Contact",
+      "href": "#contact"
+    }
+  ],
+  "social": [
+    {
+      "name": "facebook",
+      "icon": "bx bxl-facebook",
+      "href": "https://www.facebook.com/Mr.momar.bg"
+    },
+    {
+      "name": "twitter",
+      "icon": "bx bxl-twitter",
+      "href": "https://twitter.com/Omar09081988"
+    },
+    {
+      "name": "linkedin",
+      "icon": "bx bxl-linkedin",
+      "href": "https://www.linkedin.com/in/omar-bengoudifa-59a147151/"
+    },
+    {
+      "name": "instagram",
+      "icon": "bx bxl-instagram",
+      "href": "https://www.instagram.com/omar.bengoudifa/"
+    }
+  ],
+  "copyRight": "© 2023. All rights reserved."
+}
+
+
+
