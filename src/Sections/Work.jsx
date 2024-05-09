@@ -1,6 +1,7 @@
 import React from 'react';
 import '../Scss/Work.scss';
 import jsonData from '../Sections.json';
+import MyParticleComponent from '../components/Particles'
 
 function WorkSection() {
   const { work } = jsonData;
@@ -63,6 +64,7 @@ function WorkSection() {
             </div>
           </div>
         ))}
+        <MyParticleComponent />
       </div>
     </section>
   );

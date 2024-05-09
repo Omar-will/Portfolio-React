@@ -59,14 +59,14 @@ const App = () => {
       origin: "bottom",
       distance: "30px",
     });
-
     
-    sr.reveal(` .services__title, .services__button, .work__button, .work__img` ,  {
+    sr.reveal(`.services__title, .services__button .work__button, .work__img` ,  {
       delay: 100,
       scale: 0.9,
       origin: "top",
       distance: "30px",
     });
+    
     
     sr.reveal(`.skill-card, .work__card`, {
       delay: 100,

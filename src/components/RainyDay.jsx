@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
- 
 
 function RainyImage() {
     useEffect(() => {
@@ -14,7 +13,7 @@ function RainyImage() {
             image.onload = function () {
                 var engine = new window.RainyDay({
                     image: this,
-                    parentElement: container // Spécifiez le conteneur pour l'effet pluie
+                    parentElement: container 
                 });
                 engine.rain([
                     [3, 2, 2]
@@ -25,11 +24,9 @@ function RainyImage() {
             image.crossOrigin = 'anonymous';
             image.src = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAADCAYAAABfwxXFAAAAYklEQVQYVwFXAKj/AXRCrf8E9PIAAxXhAPfv+gDp7+8A5PLsAA0PBgAB0cjr/6l4yQAGE+YAAfnxABkHCwAM/gMA8On2AAFpQbb/7u/wAPcB3ADm/9kAB//6ABoCFAAfDxwACv8maribSVsAAAAASUVORK5CYII=';
         
-            // Ajoutez l'image au conteneur
             container.appendChild(image);
         };
 
-        // Vérifier si RainyDay est disponible dans la référence globale
         if (typeof window.RainyDay !== 'undefined') {
             loadImage();
         } else {

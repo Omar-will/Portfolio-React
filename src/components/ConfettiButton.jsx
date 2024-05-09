@@ -29,7 +29,7 @@ const ConfettiButton = () => {
     };
   }, []);
 
-  return null; // Si vous avez besoin d'un composant, vous pouvez le remplacer par ce que vous voulez rendre dans votre application
+  return null;
 };
 
 export default ConfettiButton;

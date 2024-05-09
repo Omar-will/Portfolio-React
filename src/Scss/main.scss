@@ -70,7 +70,7 @@ textarea {
 }
 
 body {
-  background-color: $body-color;
+  background: -webkit-linear-gradient(to right, #0f0c29, #302b63, #24243e);
   color: $text-color;
   transition: 0.4s; // for light mode animation
 }
@@ -419,9 +419,9 @@ body.light-theme {
     margin-right: auto;
   }
 
-  .section {
-    padding: 6.5rem 0 1rem;
-  }
+  // .section {
+  //   padding: 6.5rem 0 1rem;
+  // }
 
   .section__title {
     margin-bottom: 3.5rem;
