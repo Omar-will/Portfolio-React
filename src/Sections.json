@@ -21,11 +21,11 @@
     "image": "assets/img/about-min.webp",
     "experience": {
       "title": "Experience",
-      "years": "Bac+2 / 2 ans d'expérience"
+      "years": "Bac+2 / 3 ans d'expérience"
     },
     "completedProjects": {
       "title": "Complété",
-      "count": "10+ Projets"
+      "count": "15+ Projets"
     },
     "support": {
       "title": "Support",
@@ -86,6 +86,10 @@
     {
       "name": "SEO",
       "image": "assets/img/Seo.png"
+    },
+    {
+      "name": "WordPress",
+      "image": "assets/img/wordpress.png"
     }
   ],
   
