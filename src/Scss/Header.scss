@@ -1,13 +1,14 @@
 @import 'src/Scss/main.scss';
 
-.header {
+.sun {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-image: url('C:/Users/omarb/Desktop/mon-projet/public/assets/img/sun.png');
-    background-size: cover; 
-    background-position: center;
+  height: 6rem;
+  // background-image: url('C:/Users/omarb/Desktop/mon-projet/public/assets/img/sun.png');
+  object-fit: cover;
+  position: center;
   // height: var(--header-height);
   
   
@@ -18,7 +19,9 @@
     font-size: var($small-font-size);
   }
 }
-
+.home__greeting{
+  margin-top: 1rem;
+}
 .nav {
   height: 3.5rem;;
   display: flex;

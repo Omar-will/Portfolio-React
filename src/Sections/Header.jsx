@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Header.scss';
+import '../Scss/Header.scss';
 import SmokeEffect from "../components/Smoke";
 import navData from '../Sections.json'; 
 
@@ -9,6 +9,7 @@ function Header() {
 
   return (
     <header className="header" id="header">
+      <img className="sun" src="../assets/img/sun.png" alt="Sun" />
         <h1>Mon Portfolio</h1>
         <nav className="nav container">
             {/* <a href="#" class="nav__logo" aria-label="Omar">Omar</a> */}
