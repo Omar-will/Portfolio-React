@@ -3,14 +3,17 @@ import '../Scss/About.scss';
 import aboutData from '../Sections.json'; 
 
 const About = () => {
-  
+  if (!aboutData || !aboutData.about) {
+    return <div>Loading...</div>;
+  }
+
   const { title, image, experience, completedProjects, support, description, contactLink } = aboutData.about;
 
   return (
     <section className="about section" id="about">
       <h2 className="section__title">{title}</h2>
       <div className="about__container container grid">
-        <img src={image} alt="ordinateur" className="about__img" width="200" height="200" loading="lazy" />
+        <img src={process.env.PUBLIC_URL + '/' + image} alt="ordinateur" className="about__img" width="200" height="200" loading="lazy" />
         <div className="about__data">
           <div className="about__info">
             <div className="about__box">
