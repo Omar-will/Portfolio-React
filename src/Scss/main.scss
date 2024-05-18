@@ -70,7 +70,7 @@ textarea {
 }
 
 body {
-  background: -webkit-linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
   color: $text-color;
   transition: 0.4s; // for light mode animation
 }
