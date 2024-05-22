@@ -110,6 +110,7 @@ img {
   height: auto;
 }
 
+
 /*=============== THEME ===============*/
 .change__theme {
   font-size: 1.25rem;
@@ -239,11 +240,12 @@ body.light-theme {
 }
 
 /*=============== HEADER & NAV===============*/
+
 .header {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 999;
+  z-index: 2;
   width: 100%;
   /* background-image: url('../img/votre_image.jpg'); */
   background-size: cover; 
