@@ -44,7 +44,7 @@ function Header() {
 
   return (
     <header className="header" id="header">
-      <img className="sun" src="../assets/img/sun.png" alt="Sun" />
+      <img className="sun" src="../assets/img/sun.webp" alt="Sun" />
         <h1>Mon Portfolio</h1>
         <nav className="nav container">
             {/* <a href="#" class="nav__logo" aria-label="Omar">Omar</a> */}

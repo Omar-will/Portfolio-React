@@ -453,7 +453,7 @@ const ProjectSection = () => {
 </div>
 <div className="services__card">
     <h3 className="services__title">Arcade Game</h3>
-    <img src="assets/img/Shoot.jpg" alt="Logo de l'entreprise X" className="work__img" loading="lazy" />
+    <img src="assets/img/Shoot.webp" alt="Logo de l'entreprise X" className="work__img" loading="lazy" />
     <span className="services__button">
         Démo<i className='bx bx-right-arrow services__icon'></i>
     </span>

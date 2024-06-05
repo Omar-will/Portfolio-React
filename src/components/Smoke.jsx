@@ -20,7 +20,7 @@ const SmokeEffect = () => {
       renderer.domElement.style.height = '100%'; 
       document.body.appendChild(renderer.domElement);
 
-      const smokeTexture = new THREE.TextureLoader().load('assets/img/smoke.png');
+      const smokeTexture = new THREE.TextureLoader().load('assets/img/smokes.webp');
       
       const smokeGeometry = new THREE.PlaneGeometry(300, 300);
       

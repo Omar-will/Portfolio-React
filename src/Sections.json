@@ -37,59 +37,59 @@
   "skills": [
     {
       "name": "HTML",
-      "image": "assets/img/html.png"
+      "image": "assets/img/html.webp"
     },
     {
       "name": "CSS",
-      "image": "assets/img/css.png"
+      "image": "assets/img/css.webp"
     },
     {
       "name": "JavaScript",
-      "image": "assets/img/javascript.png"
+      "image": "assets/img/javascript.webp"
     },
     {
       "name": "React JS",
-      "image": "assets/img/reactjs.png"
+      "image": "assets/img/reactjs.webp"
     },
     {
       "name": "Redux",
-      "image": "assets/img/Redux.png"
+      "image": "assets/img/Redux.webp"
     },
     {
       "name": "Node JS",
-      "image": "assets/img/nodejs.png"
+      "image": "assets/img/nodejs.webp"
     },
     {
       "name": "Mongo DB",
-      "image": "assets/img/mongo.png"
+      "image": "assets/img/mongo.webp"
     },
     {
       "name": "Tailwind",
-      "image": "assets/img/tailwind.png"
+      "image": "assets/img/tailwind.webp"
     },
     {
       "name": "Sass",
-      "image": "assets/img/Sass.png"
+      "image": "assets/img/Sass.webp"
     },
     {
       "name": "Sql",
-      "image": "assets/img/Sql.png"
+      "image": "assets/img/Sql.webp"
     },
     {
       "name": "Git",
-      "image": "assets/img/Git.png"
+      "image": "assets/img/Git.webp"
     },
     {
       "name": "Php",
-      "image": "assets/img/Php.png"
+      "image": "assets/img/Php.webp"
     },
     {
       "name": "SEO",
-      "image": "assets/img/Seo.png"
+      "image": "assets/img/Seo.webp"
     },
     {
       "name": "WordPress",
-      "image": "assets/img/wordpress.png"
+      "image": "assets/img/wordpress.webp"
     }
   ],
   

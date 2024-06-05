@@ -21,7 +21,7 @@ function Home() {
         </div>
 
         <div className="home__handle">
-          <img src="assets/img/moi.jpg" alt="Ordinateur" className="home__img" width="200" height="200" loading="lazy" />
+          <img src="assets/img/moi.webp" alt="Ordinateur" className="home__img" width="200" height="200" loading="lazy" />
         </div>
 
         <div className="home__social">

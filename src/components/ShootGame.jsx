@@ -14,7 +14,7 @@ function Game() {
     function createTarget() {
       const target = document.createElement('img');
       target.id = "target";
-      target.src = '/assets/img/silly.png'; // Spécifier le chemin complet relatif
+      target.src = '/assets/img/silly.webp'; // Spécifier le chemin complet relatif
       target.className = "target"; // Ajouter la classe CSS "target-image" à l'image
       container.appendChild(target);
       target.style.top = Math.random() * (500 - target.offsetHeight) + 'px';
